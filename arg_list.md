@@ -1,6 +1,6 @@
 #### Variable length argument list
 
-For the SHA project I wanted to wrap Python bit-wise operations in a named function, because I thought it might be clearer.  So I did something like this:
+For the SHA project I wanted to wrap Python bit-wise operations in named functions, because I thought it might be clearer.  So I did something like this:
 
 ```
 def AND(*args):
@@ -17,7 +17,7 @@ print AND(1,2,3)
 
 The output of the first call is `1` and the second gives `0`.
 
-The function's argument is `*args`.  The asterisk indicates a variadic argument, which is a variable (arbitrary) number of arguments.  
+The function's argument is `*args`.  The asterisk indicates a variadic argument, which holds a variable (arbitrary) number of arguments.  
 
 `args` is a tuple, and I wanted to iterate through it by using `pop`, which requires a list.  
 
