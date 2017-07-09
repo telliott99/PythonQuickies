@@ -23,6 +23,19 @@ The above is best.  But one could do:
 >>>
 ```
 
+or
+
+```
+>>> s = 'abc'
+>>> L =list()
+>>> for i in range(len(s)-1,-1,-1):
+...     L.append(s[i])
+... 
+>>> ''.join(L)
+'cba'
+>>>
+```
+
 
 #### transposition
 
