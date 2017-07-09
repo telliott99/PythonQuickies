@@ -2,12 +2,6 @@ Python module:  **struct**
 
 [docs](https://docs.python.org/2/library/struct.html)
 
-* ``B`` unsigned char (1 byte)
-* ``H`` unsigned short (2 bytes)
-* ``I`` unsigned integer (2 bytes)
-
-[format docs](https://docs.python.org/2/library/struct.html#format-characters)
-
 ```python
 >>> import struct
 >>> struct.pack('B', 255)
@@ -18,8 +12,18 @@ Python module:  **struct**
 '\xff\x00'
 >>> struct.pack('I', 255)
 '\xff\x00\x00\x00'
->>> 
+>>>
+>>> L = [255, 0, 0, 0]
+>>> struct.pack('BBBB',*L)
+'\xff\x00\x00\x00'
+>>>
 ```
+
+* ``B`` unsigned char (1 byte)
+* ``H`` unsigned short (2 bytes)
+* ``I`` unsigned integer (2 bytes)
+
+[format docs](https://docs.python.org/2/library/struct.html#format-characters)
 
 #### Endianness
 
