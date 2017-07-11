@@ -1,5 +1,6 @@
 ### Python Quickies
 
+- [passwords](scripts/pw.py)
 
 #### Binary Data
 
@@ -14,5 +15,5 @@
 
 #### Miscellaneous
 
-- [calendar.py](calendar.py)
+- [calendar.py](scripts/calendar.py)
      - [special month](cal.png)
