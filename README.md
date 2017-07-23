@@ -2,6 +2,8 @@
 
 - [passwords](scripts/pw.py)
 
+- [virtualenv](virtualenv.md)
+
 #### Binary Data
 
 - [binary.md](binary.md)
@@ -12,6 +14,8 @@
 
 - [*args](arg_list.md)
 - [matrix transposition](matrix_trans.md)
+- Python [chunks](chunks.md)
+- [sort](sort_keys.py) functions
 
 #### Miscellaneous
 

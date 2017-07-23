@@ -46,9 +46,8 @@ else:
 from random import SystemRandom
 f = SystemRandom().randrange
 
-L = list()
-for i in range(N):
-    j = f(len(cL))
-    L.append(cL[j])
-
+iL = [f(len(cL)) for i in range(N)]
+L = [cL[j] for j in iL]
 print ''.join(L)
+
+
