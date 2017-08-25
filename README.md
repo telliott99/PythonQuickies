@@ -21,3 +21,4 @@
 
 - [calendar.py](scripts/calendar.py)
      - [special month](cal.png)
+- [Truth in Python](truth.md)
