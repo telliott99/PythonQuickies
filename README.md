@@ -1,8 +1,12 @@
 ### Python Quickies
 
-- [passwords](scripts/pw.py)
+#### Environments
 
 - [virtualenv](virtualenv.md)
+- [venv](virtualenv new.md)
+- [autoenv](autoenv.md)
+- [pip](pip.md)
+- [pipenve](pipenv.md)
 
 #### Binary Data
 
@@ -22,3 +26,7 @@
 - [calendar.py](scripts/calendar.py)
      - [special month](cal.png)
 - [Truth in Python](truth.md)
+- [passwords](scripts/pw.py)
+
+
+An [article](https://pythontips.com/2015/06/21/4-command-line-tools-for-more-python-productivity/) with several tips.

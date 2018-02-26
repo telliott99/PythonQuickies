@@ -1,8 +1,38 @@
 #### Using a virtual environment
 
-The command to remember is:
+#### Obtaining virtualenv
 
-    source bin/activate
+Use `pip` 
+
+```
+> pip install virtualenv
+Collecting virtualenv
+  Using cached virtualenv-15.1.0-py2.py3-none-any.whl
+Installing collected packages: virtualenv
+Successfully installed virtualenv-15.1.0
+> pip install nose
+> 
+```
+
+#### Setting up a new environment
+
+```
+virtualenv <new directory>
+```
+
+```
+> pwd
+/Users/telliott_admin/Desktop
+> virtualenv mpl
+New python executable in /Users/telliott_admin/Desktop/mpl/bin/python2.7
+Also creating executable in /Users/telliott_admin/Desktop/mpl/bin/python
+Installing setuptools, pip, wheel...done.
+>
+```
+
+#### Activating virtualenv
+
+The command to remember is ``source bin/activate``
 
 ```
 > cd mpl
@@ -39,32 +69,5 @@ When you're finished:
 
 or just quit Terminal.
 
-#### Obtaining virtualenv
-
-Use `pip` 
-
-```
-> pip install virtualenv
-Collecting virtualenv
-  Using cached virtualenv-15.1.0-py2.py3-none-any.whl
-Installing collected packages: virtualenv
-Successfully installed virtualenv-15.1.0
-> pip install nose
-> 
-```
-
-#### Setting up a new environment
-
-    virtualenv <new directory>
-
-```
-> pwd
-/Users/telliott_admin/Desktop
-> virtualenv mpl
-New python executable in /Users/telliott_admin/Desktop/mpl/bin/python2.7
-Also creating executable in /Users/telliott_admin/Desktop/mpl/bin/python
-Installing setuptools, pip, wheel...done.
->
-```
 
 
