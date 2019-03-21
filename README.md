@@ -28,5 +28,8 @@
 - [Truth in Python](truth.md)
 - [passwords](scripts/pw.py)
 
+#### References
 
 An [article](https://pythontips.com/2015/06/21/4-command-line-tools-for-more-python-productivity/) with several tips.
+
+A [link](link) with many links.

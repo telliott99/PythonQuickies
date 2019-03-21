@@ -25,7 +25,7 @@ pip 9.0.1 from /usr/local/lib/python3.6/site-packages (python 3.6)
 
 #### ``requirements.txt``
 
-For virtual environments, once can direct ``pip`` to install a bunch of modules all at once, by putting them in a file ``requirements.txt``.
+For virtual environments, one can direct ``pip`` to install a bunch of modules all at once, by putting them in a file ``requirements.txt``.
 
 ```
 pip install -r requirements.txt

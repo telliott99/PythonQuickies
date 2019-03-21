@@ -71,6 +71,4 @@ bytearray(b'0xabcdef')
 >>>
 ```
 
-The good news:  under the hood, a bytearray is an array of ints. The bad news:  feeding hex data to `bytearray` does not do what you would expect.
-
-
+The good news:  under the hood, a bytearray is an array of ints. 
