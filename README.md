@@ -20,6 +20,7 @@
 - [matrix transposition](matrix_trans.md)
 - Python [chunks](chunks.md)
 - [sort](sort_keys.py) functions
+- [map, filter, reduce](map_fil_red.md)
 
 #### Miscellaneous
 
@@ -33,3 +34,5 @@
 An [article](https://pythontips.com/2015/06/21/4-command-line-tools-for-more-python-productivity/) with several tips.
 
 A [link](link) with many links.
+
+Fixing an [issue](arrows.md) with arrows.
